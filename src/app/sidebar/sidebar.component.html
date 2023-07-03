@@ -6,13 +6,23 @@
     <div class="m1-card">
         <mat-card>
             <mat-card-header>
-              <mat-card-title  style="display: flex; justify-content: center;" ><h3>Welcome back,</h3> <span>Michael</span></mat-card-title>
-              <!-- <mat-card-title class="mct" ><h3>Welcome back,</h3> <span>Michael</span></mat-card-title> -->
-              <!-- <mat-card-subtitle>Start</mat-card-subtitle> -->
+              <mat-card-title  style="display: flex; justify-content: center;" ><h3>Welcome back, <strong>Michael</strong></h3> </mat-card-title>
             </mat-card-header>
-         
+            <mat-card-content>
+              <!-- <p> {{ datePipe.transform(myDate, 'shortDate') }}</p> -->
+              <p>{{today | date : "fullDate"}}</p>
+            </mat-card-content>
           </mat-card>
           <br>
     </div>
+    <div class="m2-card">
+      <mat-card class="mc">
+          <mat-card-header>
+            <mat-card-title><h2>Wallet Balance</h2> </mat-card-title> 
+            <mat-card-title class="mct" ><h1 style="content: \20B9;">&#8377; 2,50,000</h1></mat-card-title>
+          </mat-card-header>
+        </mat-card>
+        <br>
+  </div>
     </div>
 </div>

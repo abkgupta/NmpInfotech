@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DatePipe } from '@angular/common';
 
 @Component({
   selector: 'app-sidebar',
@@ -11,5 +12,7 @@ export class SidebarComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  // datePipe: DatePipe = new DatePipe('en-US');
+  // myDate: Date = new Date();
+  today  = Date()
 }
