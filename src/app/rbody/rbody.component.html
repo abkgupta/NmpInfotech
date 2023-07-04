@@ -1,0 +1,154 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 rbc1 mt-3">
+            <mat-card>
+                <h3 class="fu">Frequently Used</h3>
+                <div class="row rbh ">
+                    <div class="col-md-4 ">
+                        <div class="d1">
+                            <h2 style="margin: 0;">View Funds</h2>
+                            <p style="margin: 0 0 5px;">You have used this service 20 times in the last one week</p>
+                            <a style="color: purple;" href="#">Action CTA >></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 ">
+                        <div class="d1">
+                            <h2 style="margin: 0;">Manage Users</h2>
+                            <p style="margin: 0 0 5px;">You have used this service 20 times in the last one week</p>
+                            <a style="color: purple;" href="#">Action CTA >></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 ">
+                        <div class="d1">
+                            <h2 style="margin: 0;">View Orders</h2>
+                            <p style="margin: 0 0 5px;">You have used this service 20 times in the last one week</p>
+                            <a style="color: purple;" href="#">Action CTA >></a>
+                        </div>
+                    </div>
+                </div>
+            </mat-card>
+        </div>
+        <div class="col-md-12 rbn mt-3">
+            <select>
+                <option value="">All branches</option>
+            </select>
+            <div class="cm2">
+                <select style="margin-left: 10px;">
+                    <option value="">custom change</option>
+                </select>
+                <input style="margin-left: 5px;" type="date">
+            </div>
+
+        </div>
+        <div class="col-md-12 mod">
+            <mat-card>
+                <h3 class="fu">Order Details</h3>
+                <div class="row rbh ">
+                    <div class="col-md-3 ">
+                        <div class="d2">
+                            <div class="row rd">
+                                <h2>18 <span class="material-icons">all_inbox</span></h2>
+                                <p>Total Orders</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-3 ">
+                        <div class="d2">
+                            <h2>10 <span class="material-icons">watch_later</span></h2>
+                            <p>In progress</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 ">
+                        <div class="d2">
+                            <h2>5 <span class="material-icons">fact_check</span></h2>
+                            <p>Completed Order</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 ">
+                        <div class="d2">
+                            <h2>3 <span class="material-icons">cancel_presentation</span></h2>
+                            <p>Cancelled Order</p>
+                        </div>
+                    </div>
+                </div>
+            </mat-card>
+
+        </div>
+        <div class="col-md-12 mol">
+          <div class="row tcd">
+             <div class="col-md-6">
+                <mat-card>
+                <a style="color: black;" href="#"><h3>E-sign Count:</h3></a>
+                <div class="row cr1">
+                 <div class="col-md-3 ">
+                     <div class="isq">
+                        <div class="sq1">
+                        </div>
+                        <p>Initiated</p>
+                     </div>
+                     <div class="isq">
+                        <div class="sq2">
+                        </div>
+                        <p>Signed</p>
+                     </div>
+                 </div>
+                 <div class="col-md-3 ">
+                    <div class="isq">
+                        <div class="sq3">
+                        </div>
+                        <p>Pending</p>
+                     </div>
+                     <div class="isq">
+                        <div class="sq4">
+                        </div>
+                        <p>Expired</p>
+                     </div>
+                </div>
+                <div class="col-md-6">
+                    <mat-spinner *ngIf="showSpinner" color="accent">
+
+                    </mat-spinner>
+                </div>
+                </div>
+                  </mat-card>
+             </div>
+             <div class="col-md-6">
+                <mat-card>
+                    <a style="color: black;" href="#"><h3>E-stamp Count:</h3></a>
+                    <div class="row cr1">
+                        <div class="col-md-3 ">
+                            <div class="isq">
+                               <div class="sq1">
+                               </div>
+                               <p>Initiated</p>
+                            </div>
+                            <div class="isq">
+                               <div class="sq2">
+                               </div>
+                               <p>Signed</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 ">
+                           <div class="isq">
+                               <div class="sq3">
+                               </div>
+                               <p>Pending</p>
+                            </div>
+                            <div class="isq">
+                               <div class="sq4">
+                               </div>
+                               <p>Expired</p>
+                            </div>
+                       </div>
+                       <div class="col-md-6">
+                           <mat-spinner *ngIf="showSpinner" color="accent">
+                           </mat-spinner>
+                       </div>
+                       </div>
+                  </mat-card>
+             </div>
+          </div>
+        </div>
+    </div>
+</div>

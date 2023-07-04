@@ -1,6 +1,11 @@
 header{
     padding: 12 px 0;
     background: whitesmoke;
+    position: fixed;
+    top: 0;
+    /* height: 12vh; */
+    z-index: 1;
+    width: 100%;
 }
 .menu{
   margin-top: 12px;

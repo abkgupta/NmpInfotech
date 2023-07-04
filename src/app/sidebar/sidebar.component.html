@@ -1,28 +1,56 @@
-<!-- <p>sidebar works!</p> -->
 
-<div class="row">
-    <div class="col-md-3">
   <!-- <h1>Sidebar fine</h1> -->
-    <div class="m1-card">
+  <div class="m1-card mt-3">
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title class="mch" style="display: flex; justify-content: center;">
+          <h3>Welcome back, <strong>Michael</strong></h3>
+        </mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <!-- <p> {{ datePipe.transform(myDate, 'shortDate') }}</p> -->
+        <p>{{today | date : "fullDate"}}</p>
+      </mat-card-content>
+    </mat-card>
+    <br>
+  </div>
+  <div class="m2-card">
+    <mat-card class="mc">
+      <mat-card-header>
+        <mat-card-title>
+          <h2>Wallet Balance <mat-icon style="margin-left: 30px;">account_balance_wallet</mat-icon></h2>
+        </mat-card-title>
+        <mat-card-title class="mct">
+          <h1 class="twf" style="content: \20B9;">&#8377; 2,50,000</h1>
+        </mat-card-title>
+      </mat-card-header>
+      <p class="cb">Current Balance</p>
+      <p>Running Low <a href="#">Click Here</a> to add more</p>
+    </mat-card>
+  </div>
+  <div class="m3-card">
+    <mat-card class="">
+      <mat-card-header>
+        <h3> Pending Actions</h3>
+      </mat-card-header>
+      <div class="mc3">
+        <!-- <cdk-virtual-scroll-viewport itemSize="4" class="example-viewport"> -->
         <mat-card>
-            <mat-card-header>
-              <mat-card-title  style="display: flex; justify-content: center;" ><h3>Welcome back, <strong>Michael</strong></h3> </mat-card-title>
-            </mat-card-header>
-            <mat-card-content>
-              <!-- <p> {{ datePipe.transform(myDate, 'shortDate') }}</p> -->
-              <p>{{today | date : "fullDate"}}</p>
-            </mat-card-content>
-          </mat-card>
-          <br>
-    </div>
-    <div class="m2-card">
-      <mat-card class="mc">
           <mat-card-header>
-            <mat-card-title><h2>Wallet Balance</h2> </mat-card-title> 
-            <mat-card-title class="mct" ><h1 style="content: \20B9;">&#8377; 2,50,000</h1></mat-card-title>
+            <p>#trc3546</p>
           </mat-card-header>
         </mat-card>
-        <br>
+        <mat-card>
+          <mat-card-header>
+            <p>#trc3546</p>
+          </mat-card-header>
+        </mat-card>
+        <mat-card>
+          <mat-card-header>
+            <p>#trc3546</p>
+          </mat-card-header>
+        </mat-card>
+      <!-- </cdk-virtual-scroll-viewport> -->
+      </div>
+    </mat-card>
   </div>
-    </div>
-</div>

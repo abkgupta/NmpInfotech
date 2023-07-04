@@ -9,19 +9,31 @@ import {MatMenuModule} from '@angular/material/menu';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import {MatCardModule} from '@angular/material/card';
+import {MatIconModule} from '@angular/material/icon';
+import {ScrollingModule} from '@angular/cdk/scrolling';
+import { FooterComponent } from './footer/footer.component';
+import { RbodyComponent } from './rbody/rbody.component';
+import { AppcontainerComponent } from './appcontainer/appcontainer.component';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    SidebarComponent
+    SidebarComponent,
+    FooterComponent,
+    RbodyComponent,
+    AppcontainerComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MatMenuModule,
     BrowserAnimationsModule,
-    MatCardModule
+    MatCardModule,
+    MatIconModule,
+    ScrollingModule,
+    MatProgressSpinnerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

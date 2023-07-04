@@ -1,11 +1,35 @@
+
+.mch{
+    height: 28px;
+}
+
 .m1-card{
     /* display: flex; */
-    margin-top: 10px;
+    /* margin-top: 10px; */
+}
+.twf{
+    margin: 0 0 5px;
+}
+.cb{
+    margin: 0 0 6px;
 }
 .mc{
     margin-top: 10px;
     height: 300px;
 }
+.m2-card mat-card{
+    height: 180px;
+}
+/* .col-md-3{
+    padding: 2em;
+} */
 /* .mct{
     display: flex;
 } */
+.m3-card{
+    margin-top: 5px;
+}
+.mc3{
+    height: 100px;
+    overflow: auto;
+}
