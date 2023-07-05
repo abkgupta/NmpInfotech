@@ -10,6 +10,17 @@ ul{
     /* color: white; */
     height: 8vh;
  }
+ .icons{
+    display: flex;
+ }
+.icons .bi {
+ 
+    padding: 4px 4px;
+    border-radius: 18px;
+    margin: 0 5px;
+    border: 1px solid #ddd;
+
+ }
 /* .footer ul{
     list-style-type: none;
     display: flex;

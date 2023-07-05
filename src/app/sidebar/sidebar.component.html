@@ -9,7 +9,8 @@
       </mat-card-header>
       <mat-card-content>
         <!-- <p> {{ datePipe.transform(myDate, 'shortDate') }}</p> -->
-        <p>{{today | date : "fullDate"}}</p>
+        <!-- <p>{{today | date : "fullDate"}}</p> -->
+        <p style="margin-left: 16px;">5 July, 2023 Wednesday</p>
       </mat-card-content>
     </mat-card>
     <br>
@@ -36,19 +37,31 @@
       <div class="mc3">
         <!-- <cdk-virtual-scroll-viewport itemSize="4" class="example-viewport"> -->
         <mat-card>
-          <mat-card-header>
-            <p>#trc3546</p>
-          </mat-card-header>
+          <div class="mtr">
+            <p>#trc3546  <label style="    float: right;
+              background: #ddd;
+              border-radius: 20px;
+              padding: 1px 8px; font-size: 10px;" align="rights">10 days ago</label></p>
+              <p style="font-size: 15px;">2 files are waiting to be Uploaded</p>
+          </div>
         </mat-card>
         <mat-card>
-          <mat-card-header>
-            <p>#trc3546</p>
-          </mat-card-header>
+          <div class="mtr">
+            <p>#trc3546  <label style="    float: right;
+              background: #ddd;
+              border-radius: 20px;
+              padding: 1px 8px; font-size: 10px;" align="rights">10 days ago</label></p>
+              <p style="font-size: 10px;">2 files are waiting to be Uploaded</p>
+          </div>
         </mat-card>
         <mat-card>
-          <mat-card-header>
-            <p>#trc3546</p>
-          </mat-card-header>
+          <div class="mtr">
+            <p>#trc3546  <label style="    float: right;
+              background: #ddd;
+              border-radius: 20px;
+              padding: 1px 8px; font-size: 10px;" align="rights">10 days ago</label></p>
+              <p style="font-size: 15px;">2 files are waiting to be Uploaded</p>
+          </div>
         </mat-card>
       <!-- </cdk-virtual-scroll-viewport> -->
       </div>

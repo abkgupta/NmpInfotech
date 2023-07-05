@@ -14,6 +14,9 @@ header{
   align-items: center;
 
 }
+.bg-light{
+    background-color: unset !important;
+}
 .menu ul{
     padding: 0;
     margin: 0;
@@ -64,11 +67,17 @@ header{
     width: 50px;
     display: block;
     margin: 0 auto;
+ 
 }
 .logo {
-    margin-left: unset;
+    margin-left: 20px;
 }
 .sp{
     position: relative;
     border: 1px solid grey;
+}
+
+.nav-link{
+    font-weight: bold;
+    font-size: 14px;
 }

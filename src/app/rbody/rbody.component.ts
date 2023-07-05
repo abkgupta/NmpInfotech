@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ThemePalette } from '@angular/material/core';
+import { ProgressSpinnerMode } from '@angular/material/progress-spinner';
 
 @Component({
   selector: 'app-rbody',
@@ -6,14 +8,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./rbody.component.css']
 })
 export class RbodyComponent implements OnInit {
-  showSpinner: boolean = true;
   constructor() { }
  
   ngOnInit(): void {
   }
-  getData() {
-    this.showSpinner = true;
-   
-    this.showSpinner = false; 
-  }
+  color: ThemePalette = 'primary';
+  mode: ProgressSpinnerMode = 'determinate';
+  value = 50;
 }

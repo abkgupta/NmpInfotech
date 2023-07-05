@@ -15,7 +15,10 @@ import { FooterComponent } from './footer/footer.component';
 import { RbodyComponent } from './rbody/rbody.component';
 import { AppcontainerComponent } from './appcontainer/appcontainer.component';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
-
+import { FormsModule } from '@angular/forms';
+import {MatRadioModule} from '@angular/material/radio';
+import {MatSliderModule} from '@angular/material/slider';
+import {MatTooltipModule} from '@angular/material/tooltip';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +26,8 @@ import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
     SidebarComponent,
     FooterComponent,
     RbodyComponent,
-    AppcontainerComponent
+    AppcontainerComponent,
+    
   ],
   imports: [
     BrowserModule,
@@ -33,7 +37,11 @@ import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
     MatCardModule,
     MatIconModule,
     ScrollingModule,
-    MatProgressSpinnerModule
+    MatProgressSpinnerModule,
+    MatRadioModule,
+    FormsModule,
+    MatSliderModule,
+    MatTooltipModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
