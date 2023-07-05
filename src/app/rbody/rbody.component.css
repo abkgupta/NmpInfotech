@@ -80,6 +80,19 @@
 .crm{
     height: 100px;
     width: 100px;
-    border: 5px solid grey;
+    border: 9px solid rgb(240, 198, 232);
     border-radius: 100%;
+    margin: -14px 8px 23px;
+}
+.crm h3{
+    margin: 6px;
+    padding-left: 6px;
+    font-size: 12px;
+}
+.crm p{
+    padding-left: 5px;
+    font-size: 13px;
+}
+.mcb mat-card{
+   margin-top: 30px;
 }
