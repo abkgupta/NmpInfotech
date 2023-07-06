@@ -19,6 +19,7 @@ import { FormsModule } from '@angular/forms';
 import {MatRadioModule} from '@angular/material/radio';
 import {MatSliderModule} from '@angular/material/slider';
 import {MatTooltipModule} from '@angular/material/tooltip';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 @NgModule({
   declarations: [
     AppComponent,
@@ -42,6 +43,7 @@ import {MatTooltipModule} from '@angular/material/tooltip';
     FormsModule,
     MatSliderModule,
     MatTooltipModule,
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,11 +1,12 @@
-header{
+.navbar{
     padding: 12 px 0;
-    background: whitesmoke;
-    position: fixed;
+    /* background: whitesmoke; */
+    position:fixed;
     top: 0;
     /* height: 12vh; */
     z-index: 1;
     width: 100%;
+    background: #ddd !important;
 }
 .menu{
   margin-top: 12px;
@@ -45,6 +46,7 @@ header{
     border: 1px solid #ededed;
     margin: 9px;
     border-radius: 3px;
+    margin-left: 96px;
 }
 .profile label{
     padding: 10px 12px;
@@ -81,3 +83,18 @@ header{
     font-weight: bold;
     font-size: 14px;
 }
+
+.menu-btn .btn{
+    padding: 2px 5px;
+    margin: 0 19px;
+}
+@media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }

@@ -4,21 +4,21 @@
             <mat-card>
                 <h3 class="fu">Frequently Used</h3>
                 <div class="row rbh ">
-                    <div class="col-md-4 ">
+                    <div class="col-md-4 mb-3 mb-lg-0">
                         <div class="d1">
                             <h2 style="margin: 0; font-size: 15px;">View Funds</h2>
                             <p style="margin: 0 0 5px; font-size: 12px;">You have used this service 20 times in the last one week</p>
                             <a style="color: purple;" href="#">Action CTA >></a>
                         </div>
                     </div>
-                    <div class="col-md-4 ">
+                    <div class="col-md-4 mb-3 mb-lg-0 ">
                         <div class="d1">
                             <h2 style="margin: 0; font-size: 15px;">Manage Users</h2>
                             <p style="margin: 0 0 5px; font-size: 12px;">You have used this service 20 times in the last one week</p>
                             <a style="color: purple;" href="#">Action CTA >></a>
                         </div>
                     </div>
-                    <div class="col-md-4 ">
+                    <div class="col-md-4 mb-3 mb-lg-0 ">
                         <div class="d1">
                             <h2 style="margin: 0; font-size: 15px;">View Orders</h2>
                             <p style="margin: 0 0 5px; font-size: 12px;">You have used this service 20 times in the last one week</p>
@@ -29,7 +29,7 @@
             </mat-card>
         </div>
         <div class="col-md-12 rbn mt-3">
-            <select style="border-radius: 15px;">
+            <select class="allb">
                 <option value="">All branches</option>
             </select>
             <div style="display: flex;" class="cm2">
@@ -46,7 +46,7 @@
             <mat-card>
                 <h3 class="fu">Order Details</h3>
                 <div class="row rbh ">
-                    <div class="col-md-3 ">
+                    <div class="col-md-3 mb-3 mb-lg-0">
                         <div class="d2">
                             <div class="row rd" style="margin-left: 10px;">
                                 <h2 style="display: contents;">18 <span style="margin-left: 120px;" class="material-icons">all_inbox</span></h2>
@@ -56,7 +56,7 @@
                             
                         </div>
                     </div>
-                    <div class="col-md-3 ">
+                    <div class="col-md-3 mb-3 mb-lg-0">
                         <div class="d2">
                             <div class="row rd" style="margin-left: 10px;">
                             <h2 style="display: contents;">10 <span style="margin-left: 100px;" class="material-icons">watch_later</span></h2>
@@ -65,7 +65,7 @@
                         </div>
                         </div>
                     </div>
-                    <div class="col-md-3 ">
+                    <div class="col-md-3 mb-3 mb-lg-0">
                         <div class="d2">
                             <div class="row rd" style="margin-left: 10px;">
                             <h2 style="display: contents;">5 <span style="margin-left: 120px;" class="material-icons">fact_check</span></h2>
@@ -89,7 +89,7 @@
         </div>
         <div class="col-md-12 mol">
           <div class="row tcd">
-             <div class="col-md-6">
+             <div class="col-md-6 mcb">
                 <mat-card>
                 <a style="color: black;" href="#"><h3>E-sign Count:</h3></a>
                 <div class="row cr1">
@@ -117,7 +117,7 @@
                         <p style="margin-left: 10px;">Expired</p>
                      </div>
                 </div>
-                <div class="col-md-6 crm">
+                <div class="col-md-6 crm" matTooltip="Pending 20 orders">
                     <!-- <mat-spinner></mat-spinner> -->
                           <!-- <mat-progress-spinner class="example-card"
                               class="example-margin"
@@ -132,7 +132,7 @@
                 </div>
                   </mat-card>
              </div>
-             <div class="col-md-6">
+             <div class="col-md-6 mcb">
                 <mat-card>
                     <a style="color: black;" href="#"><h3>E-stamp Count:</h3></a>
                     <div class="row cr1">
@@ -160,14 +160,10 @@
                                <p style="margin-left: 10px;">Expired</p>
                             </div>
                        </div>
-                       <div class="col-md-6">
-                        <mat-progress-spinner class="example-card"
-                              class="example-margin"
-                              [color]="color"
-                              [mode]="mode"
-                              [value]="value">
-                          </mat-progress-spinner>
-                       </div>
+                       <div class="col-md-6 crm">
+                           <h3>30 K</h3>
+                           <p>Initiated</p>
+                    </div>
                        </div>
                   </mat-card>
              </div>

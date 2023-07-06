@@ -2,7 +2,9 @@
 .mch{
     height: 28px;
 }
-
+/* .mc h2 h1{
+    margin-left: -13px;
+} */
 .m1-card{
     /* display: flex; */
     /* margin-top: 10px; */
@@ -30,6 +32,9 @@
     margin-top: 5px;
 }
 .mc3{
-    height: 100px;
+    height: 160px;
     overflow: auto;
 }
+/* .pc{
+    height: 260px;
+} */
